@@ -40,8 +40,8 @@ a {
 }
 
 .bg-2 {
-    background-color: #feb9b8; /* Pink */
-    color: #ffffff;
+    background-color: #F0EBB6; /* Yellow */
+    color: #ffffff;FABCBB
 }
 
 .card {
@@ -54,12 +54,12 @@ a {
 }
 
 .bg-3 {
-    background-color: #b4d6a7; /* Green */
+    background-color: #FABCBB; /* Pink */
     color: #ffffff;
 }
 
 .bg-4 {
-    background-color: #feb9b8; /* Yellow */
+    background-color: #6A8E7F; /* Green */
     color: #D5DE99;
 }
 
@@ -81,3 +81,4 @@ a {
 .navbar-nav li a:hover {
     color: #2e72a1 !important;
 }
+
