@@ -5,7 +5,7 @@ chtml, body {
 body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
-    color: #f5f6f7;
+    color: black;
 }
 
 p {
@@ -36,12 +36,12 @@ a {
 
 .bg-1 {
     background-color: #ffffff; /* White */
-    color: #E8C8E8;
+    /* color: #E8C8E8; */ /*Pink*/
 }
 
 .bg-2 {
     background-color: #F0EBB6; /* Yellow */
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 .card {

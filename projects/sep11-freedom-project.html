@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title class="owner-name">#</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<style>
+    h1 {
+        color: #CC5107;
+    }
+
+    h2 {
+        color: #CC5107;
+    }
+
+    p {
+        color: #381205;
+    }
+
+    a:link {
+        color: #F8B126;
+    }
+
+    a:hover {
+        color: #F0751F;
+    }
+</style>
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand owner-name" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="github" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container-fluid bg-1">
+        <div class="container">
+            <h1 class="margin text-center">Pet Finder WebApp</h1>
+            <h5>Context</h5>
+            <p>The "Freedom Project" for SEP11 is all about creating a product using JavaScript with the tool of your choice. The purpose of this product is to create a functional interactive program that reflects to what we been learning year long and a demonstration of our skills.</p>
+            <h5>Content</h5>
+            <p>For my project, my team mate, <a href="https://github.com/yalah5084">Yala</a>, <a href=https://github.com/davidkevinl7792">David</a>, and I made a pet finder web app to help people find their lost pets through connection with other people using out tools Firebase with David and I, and LeafLet with Yala. Our web app containd three pages, the aunthenication page that allows users to signup and login for their data to be saved, the information page for the user to provide information about their lost pet such as the coordinates, name, and description, and a chat page so the user can share their contact information and connect with other people to help you find their lost pet or the other way around. </p>
+            <h5>Link</h5>
+            <a href="https://yalah5084.github.io/sep11-fp/home.html">Product</a><br>
+            <a href="https://github.com/hannal7626/sep11-freedom-project">Blog</a>
+            <h5>Reflection</h5>
+            <p>One challenge I had with Firebase is making the message visible to other user, I had the varaible fetchChat to disable messages on the screen however, I haven't told the computer what data I want displayed and I need to create a database collection and send in the data using db.ref("messages/" + timestamp).set. One challenge my team faced was scheduling, we each had seperate responsibilities and at times we could not work at the same time so we had often merge conflicts. In the end we communicated and made sure that we updated each others in our group chat about changes made in our product. </p>
+            <p>To present our year-long project, my school held an expo where students present the product through an elevator pitch. On a side note, the product should be something that you enjoy and are proud of. After my teammates and I presented our elevator pitch, we discussed ways that we could have done to improve the quality of our elevator pitch. First, we should practice and get comfortable presenting which we have done but because we have different classes we didn't have the opportunity to do so together. Second, we should invite the audience to try the app. We experiemented with this and realized that when we invited people to try out web app, it attarcts more people to come. Lastly, remember you don't have to follow your plan word for word but stick with the main points. Sticking to the plan word for word can make your presesation sound ungenunie and the audience could lose interest so it's important to be true and honest.</p></p>
+            <p>During our in-class presentation, we didn't practice transitions, and it lead our first presentation to feel messy. After we practiced and split up the slides for our second presentation, we understood the significance of organization and coordination. In our case with a gif in our slides, we should narrate each part so the audience has a better understanding of what they are looking at. Since, we used Firebase we could have also shown our behind the scenes as evidence that their data is being saved.</p>
+            <p>For next stpes, we plan to implement pictures that the user can send in the chat so that other people have a better clue of the animal's visual aspect. </p>
+
+            <img width="500px" src="../img/auth.png">
+            <img width="500px" src="../img/info.png">
+            <img width="500px" src="../img/chat.png">
+
+            <div class="row">
+
+                <!--
+                <div class="col-sm-6">
+                    Use this to...
+                </div>
+                <div class="col-sm-6">
+                    ...make two columns
+                </div>
+                -->
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <a href="#" target="_blank" id="fork"><img src="../img/fork.png"></a><br>
+        <a href="https://hstatsep.github.io" target="_blank"><img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep"></a>
+    </footer>
+
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
